@@ -1,0 +1,33 @@
+{
+  "name": "dream-fortune-platform",
+  "version": "1.0.0",
+  "description": "AI 기반 꿈해몽과 실시간 사주풀이 상담 플랫폼",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.16.1",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.7.2",
+    "react-webcam": "^7.1.1",
+    "@tensorflow/tfjs": "^4.10.0",
+    "@tensorflow-models/speech-commands": "^0.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.21",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19"
+  }
+}
